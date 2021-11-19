@@ -1,0 +1,52 @@
+.borderFrame {
+  border: 5px solid red;
+  border-radius: 55px;
+  padding: 20px;
+}
+
+.bgContent {
+  background-color: #343434;
+  padding: 30px;
+  color: white;
+}
+
+#bgContent1 {
+  border-bottom-left-radius: 100px;
+}
+
+#bgContent2 {
+  border-bottom-right-radius: 100px;
+}
+
+.containerInput {
+  margin-top: -65px;
+
+  margin-inline: auto;
+}
+
+.contentHr {
+  border-style: dotted;
+  border-color: #111111c9;
+  width: 60%;
+  height: 8px;
+}
+
+.textLabel {
+  margin-left: -88px;
+  margin-top: 5px;
+}
+
+.inputIcons {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.inputGender {
+  display: flex;
+  justify-content: center;
+}
+
+.textInfo {
+  -webkit-text-emphasis-style: open;
+}

@@ -1,0 +1,31 @@
+.navbar {
+  padding: 0px;
+}
+.logo {
+  font-size: 1.8em;
+  font-weight: 500;
+  color: white;
+  border-style: none;
+}
+
+.logo:hover {
+  color: white;
+  opacity: 0.8;
+  border-style: none;
+}
+
+.menu {
+  color: white;
+  opacity: 0.8;
+  border-style: none;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.menu:hover {
+  color: white;
+  opacity: 0.8;
+  border-style: none;
+  opacity: 1;
+}
