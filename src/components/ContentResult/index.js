@@ -2,7 +2,6 @@ import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import { useCalculate } from "../../contexts/CalculateContext";
-import { useEffect } from "react";
 
 const StyledButton = styled.button`
   background: #4a4a4a;
@@ -19,7 +18,7 @@ const StyledButton = styled.button`
 `;
 
 function ContentResult() {
-  const { lastUserData, setLastUserData, setClickBtn } = useCalculate();
+  const { lastUserData, setClickBtn } = useCalculate();
 
   const dietBtnClick = () => {
     setClickBtn(true);
